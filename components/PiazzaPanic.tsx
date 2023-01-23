@@ -1,3 +1,7 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faJava } from '@fortawesome/free-brands-svg-icons';
+import { faFilePdf } from '@fortawesome/free-regular-svg-icons';
+
 function PiazzaPanic() {
     return (
         <>
@@ -28,24 +32,52 @@ function PiazzaPanic() {
                             <div className="card border-primary">
                                 <div className="card-body">
                                     <h4>PLAY</h4>
-                                    <button className='btn btn-primary'>PiazzaPanic.jar</button>
+                                    <a href='#' className='btn btn-primary'>
+                                        <FontAwesomeIcon icon={faJava} />
+                                        {' '}
+                                        PiazzaPanic.jar
+                                    </a>
                                 </div>
                             </div>
                         </div>
 
                         <div className='col-md-4'>
                             <h4>Source Code</h4>
-                            <button className='btn btn-primary'>Github</button>
+                            <a href="#" className='btn btn-primary' target="_blank">
+                                <FontAwesomeIcon icon={faGithub} />      
+                                {' '}                  
+                                Github
+                            </a>
                         </div>
 
                         <div className='col-md-4'>
                             <h4>Documents</h4>
                             <ul>
-                                <li>Req1.pdf</li>
-                                <li>Arch1.pdf</li>
-                                <li>Plan1.pdf</li>
-                                <li>Risk1.pdf</li>
-                                <li>Impl1.pdf</li>
+                                <li>
+                                    <a href='#'>Req1.pdf</a>
+                                    {' '}
+                                    <FontAwesomeIcon icon={faFilePdf} />
+                                </li>
+                                <li>
+                                    <a href='#'>Plan1.pdf</a>
+                                    {' '}
+                                    <FontAwesomeIcon icon={faFilePdf} />
+                                </li>
+                                <li>
+                                    <a href='#'>Arch1.pdf</a>
+                                    {' '}
+                                    <FontAwesomeIcon icon={faFilePdf} />
+                                </li>
+                                <li>
+                                    <a href='#'>Risk1.pdf</a>
+                                    {' '}
+                                    <FontAwesomeIcon icon={faFilePdf} />
+                                </li>
+                                <li>
+                                    <a href='#'>Impl1.pdf</a>
+                                    {' '}
+                                    <FontAwesomeIcon icon={faFilePdf} />
+                                </li>
                             </ul>
                         </div>
                     </div>
