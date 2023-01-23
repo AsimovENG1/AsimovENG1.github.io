@@ -19,22 +19,24 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className='container-fluid text-center p-0'>
+      <div className={'text-center'}>
         <div className={styles.banner}>
           <Image className='py-5' src={banner} alt='Asimov' />
         </div>
 
-        <hr />
+        <hr className='gradient mb-3' />
 
-        <div className='row'>
-          <div className='col-md-2'></div>
+        <div className='container-fluid'>
+          <div className='row'>
+            <div className='col-md-2'></div>
 
-          <div className='col-md-8'>
-            <PiazzaPanic></PiazzaPanic>
+            <div className='col-md-8'>
+              <PiazzaPanic></PiazzaPanic>
+            </div>
+
+            <div className='col-md-2 p-0'></div>
           </div>
-
-          <div className='col-md-2'></div>
-        </div>
+        </div>        
       </div>
     </>
   )
