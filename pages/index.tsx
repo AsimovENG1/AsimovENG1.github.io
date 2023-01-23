@@ -19,24 +19,36 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className={'text-center'}>
-        <div className={styles.banner}>
-          <Image className='py-5' src={banner} alt='Asimov' />
+      <div className='d-flex flex-column mh-vh'>
+        <div className='flex-shrink-0 text-center'>
+          <header className='bg-asimov'>
+            <Image className='py-5' src={banner} alt='Asimov' />
+          </header>
+
+          <hr className='gradient mb-3' />
+
+          <main className='container-fluid'>
+            <div className='row'>
+              <div className='col-md-2'></div>
+
+              <div className='col-md-8'>
+                <PiazzaPanic></PiazzaPanic>
+              </div>
+
+              <div className='col-md-2 p-0'></div>
+            </div>
+          </main>
         </div>
 
-        <hr className='gradient mb-3' />
 
-        <div className='container-fluid'>
-          <div className='row'>
-            <div className='col-md-2'></div>
+        <footer className='footer mt-auto text-center'>
+          <hr className='gradient' />
 
-            <div className='col-md-8'>
-              <PiazzaPanic></PiazzaPanic>
-            </div>
-
-            <div className='col-md-2 p-0'></div>
+          <div className='bg-asimov text-light py-3'>
+            <span>Copyright &copy; Asimov {new Date().getFullYear()}</span>
           </div>
-        </div>        
+
+        </footer>
       </div>
     </>
   )

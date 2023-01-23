@@ -1,3 +1,7 @@
+.mh-vh {
+    min-height: 100vh;
+}
+
 .gradient {
     background-image: linear-gradient(to right, #BA8A49, #FAF0A2);
     height: .5rem;
@@ -7,4 +11,8 @@ hr.gradient {
     border: 0;
     opacity: 1;
     margin: 0;
+}
+
+.bg-asimov {
+    background: radial-gradient(circle at top right, #555555, #3F3F3F 60%);
 }
