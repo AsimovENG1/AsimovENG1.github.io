@@ -32,7 +32,7 @@ function PiazzaPanic() {
                             <div className="card border-primary">
                                 <div className="card-body">
                                     <h4>PLAY</h4>
-                                    <a href='#' className='btn btn-primary'>
+                                    <a href='https://drive.google.com/file/d/1O-DfAPXEFw0PmdWEnYa3z2vbSvwXYvxb/view?usp=share_link' className='btn btn-primary'>
                                         <FontAwesomeIcon icon={faJava} />
                                         {' '}
                                         PiazzaPanic.jar
@@ -43,7 +43,7 @@ function PiazzaPanic() {
 
                         <div className='col-md-4'>
                             <h4>Source Code</h4>
-                            <a href="#" className='btn btn-primary' target="_blank">
+                            <a href="https://github.com/AsimovENG1/GameCode" className='btn btn-primary' target="_blank">
                                 <FontAwesomeIcon icon={faGithub} />      
                                 {' '}                  
                                 Github
@@ -54,27 +54,27 @@ function PiazzaPanic() {
                             <h4>Documents</h4>
                             <ul>
                                 <li>
-                                    <a href='#'>Req1.pdf</a>
+                                    <a href='https://drive.google.com/file/d/1DLypzUnlc6G1S9Bh0pRRQ1B6AQWD9qtu/view?usp=share_link'>Req1.pdf</a>
                                     {' '}
                                     <FontAwesomeIcon icon={faFilePdf} />
                                 </li>
                                 <li>
-                                    <a href='#'>Plan1.pdf</a>
+                                    <a>Plan1.pdf</a>
                                     {' '}
                                     <FontAwesomeIcon icon={faFilePdf} />
                                 </li>
                                 <li>
-                                    <a href='#'>Arch1.pdf</a>
+                                    <a>Arch1.pdf</a>
                                     {' '}
                                     <FontAwesomeIcon icon={faFilePdf} />
                                 </li>
                                 <li>
-                                    <a href='#'>Risk1.pdf</a>
+                                    <a href='https://drive.google.com/file/d/1DvBEgVJdah_Ct6OhxolFM_qTPLaTxUuw/view?usp=share_link'>Risk1.pdf</a>
                                     {' '}
                                     <FontAwesomeIcon icon={faFilePdf} />
                                 </li>
                                 <li>
-                                    <a href='#'>Impl1.pdf</a>
+                                    <a>Impl1.pdf</a>
                                     {' '}
                                     <FontAwesomeIcon icon={faFilePdf} />
                                 </li>
