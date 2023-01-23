@@ -11,9 +11,9 @@ function PiazzaPanic() {
                 <div className="col-md-3"></div>
 
                 <div className="col-md-6">
-                    <p>It seems to be a quiet day at the Piazza: there aren't that many students and staff around
+                    <p>It seems to be a quiet day at the Piazza: there aren&apos;t that many students and staff around
                         this time of the year, so most of the kitchen staff are away on leave - you only have three
-                        cooks. Suddenly, a crowd bursts into the restaurant: it's an open day, and they all want to eat
+                        cooks. Suddenly, a crowd bursts into the restaurant: it&apos;s an open day, and they all want to eat
                         at once! Make the most of your kitchen and your staff, and face up to the challenge of
                         serving an impatient and demanding crowd!</p>
                 </div>
@@ -43,7 +43,7 @@ function PiazzaPanic() {
 
                         <div className='col-md-4'>
                             <h4>Source Code</h4>
-                            <a href="https://github.com/AsimovENG1/GameCode" className='btn btn-primary' target="_blank">
+                            <a rel='noreferrer' href="https://github.com/AsimovENG1/GameCode" className='btn btn-primary' target="_blank">
                                 <FontAwesomeIcon icon={faGithub} />      
                                 {' '}                  
                                 Github
