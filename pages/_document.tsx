@@ -1,3 +1,4 @@
+import Layout from '@/shared/Layout'
 import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
@@ -13,7 +14,7 @@ export default function Document() {
         <meta name="theme-color" content="#3f3f3f" />
       </Head>
       <body className='h-100'>
-        <Main />
+        <Layout />
         <NextScript />
       </body>
     </Html>

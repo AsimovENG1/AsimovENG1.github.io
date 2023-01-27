@@ -23,7 +23,7 @@ function PiazzaPanic() {
 
             <hr />
 
-            <div className="card">
+            <div className="card mb-3">
                 <h3 className="card-header">Downloads</h3>
                 <div className="card-body">
                     <div className='row'>
