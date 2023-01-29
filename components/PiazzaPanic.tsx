@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faJava } from '@fortawesome/free-brands-svg-icons';
 import { faFilePdf } from '@fortawesome/free-regular-svg-icons';
+import Link from 'next/link';
 
 function PiazzaPanic() {
     return (
@@ -16,6 +17,8 @@ function PiazzaPanic() {
                         cooks. Suddenly, a crowd bursts into the restaurant: it&apos;s an open day, and they all want to eat
                         at once! Make the most of your kitchen and your staff, and face up to the challenge of
                         serving an impatient and demanding crowd!</p>
+
+                    <p><Link href="/proofofwork">Gantt Charts &amp; Logbook</Link></p>
                 </div>
 
                 <div className="col-md-3"></div>
