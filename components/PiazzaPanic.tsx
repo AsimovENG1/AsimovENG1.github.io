@@ -46,10 +46,16 @@ function PiazzaPanic() {
 
                         <div className='col-md-4'>
                             <h4>Source Code</h4>
-                            <a rel='noreferrer' href="https://github.com/AsimovENG1/GameCode" className='btn btn-primary' target="_blank">
+                            <a rel='noreferrer' href="https://github.com/AsimovENG1/GameCode" className='btn btn-primary mb-3' target="_blank">
                                 <FontAwesomeIcon icon={faGithub} />      
                                 {' '}                  
                                 Github
+                            </a>
+                            <br />
+                            <a href='https://drive.google.com/file/d/1EMGtxhj7kyzhNLhGzLYKz4nfnt5sIdzs/view?usp=share_link' className='btn btn-secondary mb-3'>
+                                Documentation
+                                {' '}
+                                <FontAwesomeIcon icon={faFilePdf} />
                             </a>
                         </div>
 
