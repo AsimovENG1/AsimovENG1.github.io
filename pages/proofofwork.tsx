@@ -27,7 +27,7 @@ export default function ProofOfWork() {
             <h2>Proof of Work</h2>
 
             <p>
-                <a href="https://drive.google.com/file/d/1pcMRsF8QQgF80b21aSSN9hloOhcffAZ8/view?usp=share_link" className="btn btn-primary">                                
+                <a href="https://drive.google.com/file/d/1Bmoberba8C1pp-c9GfrQt1W9xof-lbSf/view?usp=share_link" className="btn btn-primary">                                
                     Download Logbook
                     {' '}
                     <FontAwesomeIcon icon={faFilePdf} />

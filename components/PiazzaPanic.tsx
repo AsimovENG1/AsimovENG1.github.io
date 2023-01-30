@@ -35,7 +35,7 @@ function PiazzaPanic() {
                             <div className="card border-primary">
                                 <div className="card-body">
                                     <h4>PLAY</h4>
-                                    <a href='https://drive.google.com/file/d/1O-DfAPXEFw0PmdWEnYa3z2vbSvwXYvxb/view?usp=share_link' className='btn btn-primary'>
+                                    <a href='https://drive.google.com/file/d/1jjpdqZm1rU51aOqnnv6CKCt6VmMlcOWZ/view?usp=share_link' className='btn btn-primary'>
                                         <FontAwesomeIcon icon={faJava} />
                                         {' '}
                                         PiazzaPanic.jar
@@ -52,7 +52,7 @@ function PiazzaPanic() {
                                 Github
                             </a>
                             <br />
-                            <a href='https://drive.google.com/file/d/1EMGtxhj7kyzhNLhGzLYKz4nfnt5sIdzs/view?usp=share_link' className='btn btn-secondary mb-3'>
+                            <a href='https://drive.google.com/file/d/1HLzNLDjZYZXLXJFEeC5WEAdto9sM0_GO/view?usp=share_link' className='btn btn-secondary mb-3'>
                                 Documentation
                                 {' '}
                                 <FontAwesomeIcon icon={faFilePdf} />
@@ -63,12 +63,12 @@ function PiazzaPanic() {
                             <h4>Documents</h4>
                             <ul>
                                 <li>
-                                    <a href='https://drive.google.com/file/d/1DLypzUnlc6G1S9Bh0pRRQ1B6AQWD9qtu/view?usp=share_link'>Req1.pdf</a>
+                                    <a href='https://drive.google.com/file/d/19753uMbMvUD8bxF1KsE7Tjzo_xMqDd0q/view?usp=share_link'>Req1.pdf</a>
                                     {' '}
                                     <FontAwesomeIcon icon={faFilePdf} />
                                 </li>
                                 <li>
-                                    <a>Plan1.pdf</a>
+                                    <a href='https://drive.google.com/file/d/1XHyvZxBOA5GMm15goPQoVu4cuNvegOdy/view?usp=share_link'>Plan1.pdf</a>
                                     {' '}
                                     <FontAwesomeIcon icon={faFilePdf} />
                                 </li>
@@ -78,12 +78,12 @@ function PiazzaPanic() {
                                     <FontAwesomeIcon icon={faFilePdf} />
                                 </li>
                                 <li>
-                                    <a href='https://drive.google.com/file/d/1DvBEgVJdah_Ct6OhxolFM_qTPLaTxUuw/view?usp=share_link'>Risk1.pdf</a>
+                                    <a href='https://drive.google.com/file/d/1Mvaxbu7lB7RBoYnONKEf73wOG9OK49_u/view?usp=share_link'>Risk1.pdf</a>
                                     {' '}
                                     <FontAwesomeIcon icon={faFilePdf} />
                                 </li>
                                 <li>
-                                    <a>Impl1.pdf</a>
+                                    <a href='https://drive.google.com/file/d/1s0nRBctoR7kGC52wyWeB5Y_2_TITGASa/view?usp=share_link'>Impl1.pdf</a>
                                     {' '}
                                     <FontAwesomeIcon icon={faFilePdf} />
                                 </li>
