@@ -56,7 +56,7 @@ export default function Home() {
               <FontAwesomeIcon icon={faFilePdf} />
             </li>
             <li>
-              <a>Arch1.pdf</a>
+              <a href='https://drive.google.com/file/d/11YUerrYto9X8QjP1jTdHJ-JHQSgZqqsQ/view?usp=share_link'>Arch1.pdf</a>
               {' '}
               <FontAwesomeIcon icon={faFilePdf} />
             </li>
