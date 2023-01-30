@@ -13,7 +13,7 @@ export default function Layout() {
                 <div className="flex-shrink-0 text-center">
                     <header className="bg-asimov">
                         <a href="/">
-                            <Image className="py-5" src={banner} alt="Asimov" />
+                            <img className="img-fluid py-5 px-3" src="/img/banner.svg" alt="Asimov" />
                         </a>
                     </header>
 
