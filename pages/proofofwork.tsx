@@ -37,63 +37,63 @@ export default function ProofOfWork() {
             <div className="card mb-3">
                 <div className="card-body">
                     <h5 className="card-title">09/11/2022</h5>            
-                    <Image src={nov1} alt="Gantt Chart 09/11/2022" />
+                    <Image src={nov1} alt="Gantt Chart 09/11/2022" className="img-fluid" />
                 </div>
             </div>
 
             <div className="card mb-3">
                 <div className="card-body">
                     <h5 className="card-title">16/11/2022</h5>
-                    <Image src={nov2} alt="Gantt Chart 16/11/2022" />
+                    <Image src={nov2} alt="Gantt Chart 16/11/2022" className="img-fluid" />
                 </div>
             </div>
 
             <div className="card mb-3">
                 <div className="card-body">
                     <h5 className="card-title">30/11/2022</h5>
-                    <Image src={nov3} alt="Gantt Chart 30/11/2022" />
+                    <Image src={nov3} alt="Gantt Chart 30/11/2022" className="img-fluid" />
                 </div>
             </div>
 
             <div className="card mb-3">
                 <div className="card-body">
                     <h5 className="card-title">08/12/2022</h5>
-                    <Image src={dec1} alt="Gantt Chart 08/12/2022" />
+                    <Image src={dec1} alt="Gantt Chart 08/12/2022" className="img-fluid" />
                 </div>
             </div>
 
             <div className="card mb-3">
                 <div className="card-body">
                     <h5 className="card-title">12/12/2022</h5>
-                    <Image src={dec2} alt="Gantt Chart 12/12/2022" />
+                    <Image src={dec2} alt="Gantt Chart 12/12/2022" className="img-fluid" />
                 </div>
             </div>
 
             <div className="card mb-3">
                 <div className="card-body">
                     <h5 className="card-title">20/12/2022</h5>
-                    <Image src={dec3} alt="Gantt Chart 20/12/2022" />
+                    <Image src={dec3} alt="Gantt Chart 20/12/2022" className="img-fluid" />
                 </div>
             </div>
 
             <div className="card mb-3">
                 <div className="card-body">
                     <h5 className="card-title">28/12/2022</h5>
-                    <Image src={dec4} alt="Gantt Chart 28/12/2022" />
+                    <Image src={dec4} alt="Gantt Chart 28/12/2022" className="img-fluid" />
                 </div>
             </div>
 
             <div className="card mb-3">
                 <div className="card-body">
                     <h5 className="card-title">16/01/2023</h5>
-                    <Image src={jan1} alt="Gantt Chart 16/01/2023" />
+                    <Image src={jan1} alt="Gantt Chart 16/01/2023" className="img-fluid" />
                 </div>
             </div>
 
             <div className="card mb-3">
                 <div className="card-body">
                     <h5 className="card-title">23/01/2023</h5>
-                    <Image src={jan2} alt="Gantt Chart 23/01/2023" />
+                    <Image src={jan2} alt="Gantt Chart 23/01/2023" className="img-fluid" />
                 </div>
             </div>
         </>
