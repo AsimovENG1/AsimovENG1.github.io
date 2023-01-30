@@ -9,7 +9,9 @@ export default function Layout() {
             <div className="d-flex flex-column mh-vh">
                 <div className="flex-shrink-0 text-center">
                     <header className="bg-asimov">
-                        <Image className="py-5" src={banner} alt="Asimov" />
+                        <a href="/">
+                            <Image className="py-5" src={banner} alt="Asimov" />
+                        </a>
                     </header>
 
                     <hr className="gradient mb-3" />
